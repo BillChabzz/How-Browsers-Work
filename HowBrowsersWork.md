@@ -20,5 +20,16 @@ The browsers have common user interface like the:
 
 There are many more similarities.
 
+##A brief description of how a browser works
+
+The URL typed in address bar maps to an IP address. This is called DNS(Domain Name Service) lookup. The DNS maps numeric computer addresses to human readable names.
+
+Once the browser has the IP address, it sends a HTTP request to the web server at the specified address. Hyper Text Transfer Protocol is used to facilitate requests from your client(the browser) and responses from a server. As this HTML response is being sent to the browser, the browser's rendering engine is displaying the request content on your screen. To accomplish this the rendering engine parses the HTML and creates the DOM tree.
+
+The browser then parses style data(CSS) and together with the html ,it constructs a render tree. The render tree displays rectangles (i.e divs,paragraphs, headlines, etc) with a few visual attributes such as color and size dimensions. The rectangles are displayed in order on the page. The browser lays out the contents in the position they will appear in the browser. Finaly is "painting" where the elements are drawn on the screen.
+
 ### So let's get deeper into understanding the browser and its structure.
+The browser is made up of components as follows:
+
+1.
 
