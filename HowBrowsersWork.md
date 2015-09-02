@@ -19,3 +19,6 @@ The browsers have common user interface like the:
 * Home, refresh, forward and backward buttons
 
 There are many more similarities.
+
+### So let's get deeper into understanding the browser and its structure.
+
