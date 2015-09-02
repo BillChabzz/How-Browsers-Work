@@ -1,2 +1,2 @@
 # How-Browsers-Work
-Front end development- HTML and CSS 
+This repo is some research on how browsers work
