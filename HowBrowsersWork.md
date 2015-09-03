@@ -31,5 +31,5 @@ The browser then parses style data(CSS) and together with the html ,it construct
 ### So let's get deeper into understanding the browser and its structure.
 The browser is made up of components as follows:
 
-1.
+1.Browser engine-
 
