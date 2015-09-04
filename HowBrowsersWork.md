@@ -33,3 +33,15 @@ The browser is made up of components as follows:
 
 1.Browser engine-
 
+2.UI(user interface)-
+
+3.Rendering engine-
+
+4.Networking-
+
+5.UI backend-
+
+6.Js interpreter-
+
+7.Data storage-
+
