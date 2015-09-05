@@ -39,7 +39,9 @@ The browser is made up of components as follows:
 
 ##### Rendering engines and flow
 
-Different browsers use different rendering engines.
+Different browsers use different rendering engines. The rendering engine gets the content of requested documents from the network layer usually in 8kb chucks.The main flow of the engine can be described as follows:
+
+  i)
 
 
 
