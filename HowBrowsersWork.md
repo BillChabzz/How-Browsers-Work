@@ -28,7 +28,7 @@ Once the browser has the IP address, it sends a HTTP request to the web server a
 
 The browser then parses style data(CSS) and together with the html ,it constructs a render tree. The render tree displays rectangles (i.e divs,paragraphs, headlines, etc) with a few visual attributes such as color and size dimensions. The rectangles are displayed in order on the page. The browser lays out the contents in the position they will appear in the browser. Finaly is "painting" where the elements are drawn on the screen.
 
-### So let's get deeper into understanding the browser and its structure.
+### Let's get to understand the browser and its structure.
 The browser is made up of components as follows:
 
 1.Browser engine- this marshals between the UI and rendering engine
