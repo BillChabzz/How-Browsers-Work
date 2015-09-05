@@ -41,9 +41,13 @@ The browser is made up of components as follows:
 
 Different browsers use different rendering engines. The rendering engine gets the content of requested documents from the network layer usually in 8kb chucks.The main flow of the engine can be described as follows:
 
-  i)
+-- Parsing html to construct DOM tree- this parses the html document and converts the style data, both external CSS and in style elements. The styling of visual instructions will be used to create the render tree.
 
+--Render tree construction-the render tree contains rectangles with visual attributes. These rectangles are displayed in order on the page.
 
+--Layout of render tree-Each node is given the exact coordinates where it should appear on the screen.
+
+--Painting the render tree-The render tree is traversed and each node painted using UI backend layer.
 
 4.Networking-
 
