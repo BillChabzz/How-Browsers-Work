@@ -31,11 +31,17 @@ The browser then parses style data(CSS) and together with the html ,it construct
 ### So let's get deeper into understanding the browser and its structure.
 The browser is made up of components as follows:
 
-1.Browser engine-
+1.Browser engine- this marshals between the UI and rendering engine
 
-2.UI(user interface)-
+2.UI(user interface)- these are the interactive parts such as the address bar,bookmarking menu,forward/backward button but does not include the the browser window.
 
-3.Rendering engine-
+3.Rendering engine-this displays requested content to the browser screen. This can also include other types of data using plug-ins e.g. PDFs
+
+##### Rendering engines and flow
+
+Different browsers use different rendering engines.
+
+
 
 4.Networking-
 
