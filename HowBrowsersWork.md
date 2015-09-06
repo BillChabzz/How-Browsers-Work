@@ -49,11 +49,11 @@ Different browsers use different rendering engines. The rendering engine gets th
 
 --Painting the render tree-The render tree is traversed and each node painted using UI backend layer.
 
-4.Networking-
+4.Networking- for handling the http requests using different implementations for different platforms
 
-5.UI backend-
+5.UI backend- this draws the basic widgets like combo boxes and windows.It exposes the generic interface that isn't platform specific.
 
-6.Js interpreter-
+6.Js interpreter- used to parse and execute Js code.
 
-7.Data storage-
+7.Data storage-a persistence layer where the browser stores data locally eg cookies
 
